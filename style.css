@@ -1,0 +1,144 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #56699f;
+  text-align: center;
+}
+
+header {
+  padding-top: 10px;   
+  padding-left: 30%;
+  padding-right: 30%;
+  margin: 1px;         
+}
+
+main { 
+  padding-top: 25px;      
+  padding-bottom: 50px;          
+}
+
+p {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-size: 1.2em;
+  color: white;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 3em;
+}
+
+h2 {
+  padding-bottom: 0.5em;
+  font-size: 1.7em;
+  color: skyblue;
+}
+
+h3 {
+  color: white;
+  font-size: 1.9em;
+  padding-top: 0.8em;
+  padding-bottom: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+/* STYLE IMAGES */
+img {
+  max-width: 500px;
+  border: 1px solid white;
+  text-align: left;
+}
+
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #96a7e8;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #56699f;
+}
+
+.genFact {
+  background: skyblue;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.2em;
+  color: white;
+}
+
+#fact{
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top:30px;
+  margin-left: 15%
+  margin-right: 15%
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #98bcdd;
+  
+}
+
+#factBtn {
+  background: #56699f;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: white;
+  font-size: 1em;
+}
+
+
+
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
